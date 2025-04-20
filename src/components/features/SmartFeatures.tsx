@@ -95,7 +95,7 @@ const SmartFeatures: React.FC = () => {
               
               <div className="relative">
                 <img 
-                  src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg" 
+                  src="src/assets/images/conferance-call.jpeg" 
                   alt="User Interface" 
                   className="w-full h-full object-cover"
                   style={{ minHeight: '400px' }}

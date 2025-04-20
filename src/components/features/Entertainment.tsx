@@ -3,12 +3,12 @@ import { Play, Film, Radio, Tv } from 'lucide-react';
 import Button from '../Button';
 
 const streamingServices = [
-  { name: 'Netflix', logo: 'N' },
-  { name: 'Prime Video', logo: 'P' },
-  { name: 'Disney+', logo: 'D' },
-  { name: 'YouTube', logo: 'Y' },
-  { name: 'HBO Max', logo: 'H' },
-  { name: 'Hulu', logo: 'H' },
+  { name: 'Netflix', logo: '/src/assets/streaming-icons/netflix.png' },
+  { name: 'Prime Video', logo: '/src/assets/streaming-icons/amazon-prime.png' },
+  { name: 'YouTube', logo: '/src/assets/streaming-icons/youtube.png' },
+  { name: 'Hulu', logo: '/src/assets/streaming-icons/hulu.png' },
+  { name: 'Fire TV', logo: '/src/assets/streaming-icons/fire-tv.png' },
+  { name: 'Alexa', logo: '/src/assets/streaming-icons/amazon-alexa-logo.png' },
 ];
 
 const Entertainment: React.FC = () => {
@@ -37,7 +37,11 @@ const Entertainment: React.FC = () => {
                     key={index}
                     className="bg-white rounded-lg shadow-sm flex items-center justify-center p-4 h-20"
                   >
-                    <span className="text-2xl font-bold text-gray-800">{service.logo}</span>
+                    <img 
+                      src={service.logo} 
+                      alt={service.name} 
+                      className="w-16 h-16 object-contain"
+                    />
                   </div>
                 ))}
               </div>
@@ -81,7 +85,7 @@ const Entertainment: React.FC = () => {
           <div className="order-1 lg:order-2">
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/4009401/pexels-photo-4009401.jpeg" 
+                src="src/assets/images/action-secne.jpeg" 
                 alt="Entertainment Hub" 
                 className="w-full rounded-lg shadow-lg"
               />

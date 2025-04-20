@@ -68,7 +68,7 @@ const Design: React.FC = () => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/5082567/pexels-photo-5082567.jpeg" 
+                src="src/assets/images/fireOs.jpeg" 
                 alt="Ultra-Thin Bezel Design" 
                 className="w-full max-w-md rounded-lg shadow-lg"
               />

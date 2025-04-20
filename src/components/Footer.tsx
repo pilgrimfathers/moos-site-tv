@@ -160,7 +160,7 @@ const Footer: React.FC = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-[#00D3F1] flex-shrink-0 mt-1" />
                 <address className="text-gray-400 not-italic">
-                  123 Tech Way, Silicon Valley, CA 94301, USA
+                First Floor, 5/940-B, K K Tower, Mathra Road, Pantheeramkavu Kozhikode, Kerala, 673014
                 </address>
               </li>
             </ul>

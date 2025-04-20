@@ -30,14 +30,11 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Tv2 
-              size={32} 
-              className="text-[#00D3F1] mr-2" 
-              strokeWidth={2.5}
+            <img 
+              src="/src/assets/comp-logo/quachi-logo.png" 
+              alt="Quachi Fire TV Logo"
+              className="h-10 mr-2" 
             />
-            <span className="text-xl md:text-2xl font-bold">
-              <span className="text-[#00D3F1]">Quachi</span> Fire TV
-            </span>
           </div>
 
           {/* Desktop Navigation */}

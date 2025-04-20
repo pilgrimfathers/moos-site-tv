@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       />
       
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+        <div className="flex flex-col lg:flex-row items-center gap-12 mt-6">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900">
               Experience Premium Entertainment with <span className="text-[#00D3F1]">Quachi Fire TV</span>
@@ -57,10 +57,14 @@ const Hero: React.FC = () => {
           
           <div className="flex-1 relative">
             <div className="relative overflow-hidden rounded-lg shadow-2xl">
-              <img 
-                src="https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg" 
-                alt="Quachi Fire TV" 
+              <video 
+                src="/src/assets/videos/quachi-tv-video.mp4" 
+                title="Quachi Fire TV" 
                 className="w-full h-auto"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
             </div>
