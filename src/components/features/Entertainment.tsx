@@ -3,12 +3,12 @@ import { Play, Film, Radio, Tv } from 'lucide-react';
 import Button from '../Button';
 
 const streamingServices = [
-  { name: 'Netflix', logo: '/src/assets/streaming-icons/netflix.png' },
-  { name: 'Prime Video', logo: '/src/assets/streaming-icons/amazon-prime.png' },
-  { name: 'YouTube', logo: '/src/assets/streaming-icons/youtube.png' },
-  { name: 'Hulu', logo: '/src/assets/streaming-icons/hulu.png' },
-  { name: 'Fire TV', logo: '/src/assets/streaming-icons/fire-tv.png' },
-  { name: 'Alexa', logo: '/src/assets/streaming-icons/amazon-alexa-logo.png' },
+  { name: 'Netflix', logo: '/assets/streaming-icons/netflix.png' },
+  { name: 'Prime Video', logo: '/assets/streaming-icons/amazon-prime.png' },
+  { name: 'YouTube', logo: '/assets/streaming-icons/youtube.png' },
+  { name: 'Hulu', logo: '/assets/streaming-icons/hulu.png' },
+  { name: 'Fire TV', logo: '/assets/streaming-icons/fire-tv.png' },
+  { name: 'Alexa', logo: '/assets/streaming-icons/amazon-alexa-logo.png' },
 ];
 
 const Entertainment: React.FC = () => {
@@ -85,7 +85,7 @@ const Entertainment: React.FC = () => {
           <div className="order-1 lg:order-2">
             <div className="relative">
               <img 
-                src="src/assets/images/action-secne.jpeg" 
+                src="/assets/images/action-secne.jpeg" 
                 alt="Entertainment Hub" 
                 className="w-full rounded-lg shadow-lg"
               />

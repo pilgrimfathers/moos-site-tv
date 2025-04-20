@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
           <div className="flex-1 relative">
             <div className="relative overflow-hidden rounded-lg shadow-2xl">
               <video 
-                src="/src/assets/videos/quachi-tv-video.mp4" 
+                src="/assets/videos/quachi-tv-video.mp4" 
                 title="Quachi Fire TV" 
                 className="w-full h-auto"
                 autoPlay

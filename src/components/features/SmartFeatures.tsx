@@ -95,10 +95,9 @@ const SmartFeatures: React.FC = () => {
               
               <div className="relative">
                 <img 
-                  src="src/assets/images/conferance-call.jpeg" 
-                  alt="User Interface" 
-                  className="w-full h-full object-cover"
-                  style={{ minHeight: '400px' }}
+                  src="/assets/images/conferance-call.jpeg" 
+                  alt="Smart Features" 
+                  className="rounded-lg shadow-lg w-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/50" />
                 <div className="absolute bottom-8 left-8 right-8">

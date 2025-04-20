@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img 
-              src="/src/assets/comp-logo/quachi-logo.png" 
+              src="/assets/comp-logo/quachi-logo.png" 
               alt="Quachi Fire TV Logo"
               className="h-10 mr-2" 
             />

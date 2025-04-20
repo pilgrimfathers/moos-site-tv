@@ -68,9 +68,9 @@ const Design: React.FC = () => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative">
               <img 
-                src="src/assets/images/fireOs.jpeg" 
-                alt="Ultra-Thin Bezel Design" 
-                className="w-full max-w-md rounded-lg shadow-lg"
+                src="/assets/images/fireOs.jpeg" 
+                alt="Quachi Fire TV Design" 
+                className="w-full h-auto rounded-2xl shadow-xl"
               />
               <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-md">
                 <span className="font-medium text-sm">Ultra-Thin 4.9mm Bezel</span>

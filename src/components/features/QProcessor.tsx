@@ -39,8 +39,8 @@ const QProcessor: React.FC = () => {
         <div className="mt-16 md:mt-24 flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
             <img 
-              src="src/assets/images/hero-img-1.jpeg" 
-              alt="Q Processor Technology" 
+              src="/assets/images/hero-img-1.jpeg" 
+              alt="Quachi Processor" 
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
