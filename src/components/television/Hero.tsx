@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   return (
     <section 
       id="home" 
-      className="pt-24 md:pt-32 pb-16 md:pb-24 relative overflow-hidden"
+      className="pt-24 md:pt-32 pb-14 md:pb-24 relative overflow-hidden"
     >
       <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 -z-10" />
       
