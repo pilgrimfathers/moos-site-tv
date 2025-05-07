@@ -26,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: 'airconditioner',
         element: <AirConditionerPage />,
+      },
+      {
+        path: 'products',
+        element: <TelevisionPage />, // Temporarily using TelevisionPage as a placeholder
+      },
+      {
+        path: 'about',
+        element: <div className="container mx-auto px-4 py-16"><h1 className="text-3xl font-bold">About Us</h1></div>,
       }
     ]
   }

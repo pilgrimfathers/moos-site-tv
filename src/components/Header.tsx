@@ -30,7 +30,9 @@ const Header: React.FC = () => {
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled 
           ? 'bg-white shadow-md py-2' 
-          : 'bg-transparent py-4'
+          : isActive('/') 
+            ? 'bg-[#e0f7fa] py-4' 
+            : 'bg-transparent py-4'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
@@ -89,7 +91,7 @@ const Header: React.FC = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <nav className="md:hidden bg-white border-t mt-2 py-4">
+        <nav className={`md:hidden border-t mt-2 py-4 ${isActive('/') && !scrolled ? 'bg-[#e0f7fa]' : 'bg-white'}`}>
           <div className="container mx-auto px-4 flex flex-col space-y-4">
             <Link 
               to="/" 
