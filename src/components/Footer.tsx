@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
                 <Twitter size={18} />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/quachiworld?igsh=dHFlandyZWJnYjdp" target="_blank"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#00D3F1] transition-colors"
                 aria-label="Instagram"
               >
